@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (senhas e segredos)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build e temporários
+dist/
+tmp/
+
+# Banco de dados local do TECH STORE
+tech-store/backend/tech_store.db
